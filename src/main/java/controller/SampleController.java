@@ -17,6 +17,12 @@ public class SampleController {
         return "Hello World!";
     }
 
+
+     /**
+      * 测试一下哈
+      * @param args
+      * @throws Exception
+      */
     public static void main(String[] args) throws Exception {
         SpringApplication.run(SampleController.class, args);
     }
